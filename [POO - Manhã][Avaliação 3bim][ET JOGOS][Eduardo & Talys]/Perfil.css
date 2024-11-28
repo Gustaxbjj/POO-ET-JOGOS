@@ -4,8 +4,8 @@
 }
 
 .tela {
-    width: 393px;
-    height: 100vh;  /* Ajustando a altura para preencher a tela */
+    width: 402px;
+    height: 900px;  
     background-color: #262521;
     display: flex;
     flex-direction: column;
@@ -28,61 +28,59 @@
 .nomeDePerfil {
     font-size: 30px;
     letter-spacing: 8px;
-    margin-bottom: 20px; /* Espaço abaixo do nome */
+    margin-bottom: 20px;
 }
-
-.menu {
+.menu{
     margin-bottom: 5px;
     width: 100%;  
-    padding: 50px;/* Para garantir que o menu ocupe toda a largura da tela */
+    padding: 50px;
 }
 
 .informe {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 0; /* Aumentando o espaçamento vertical entre os itens */
+    padding: 15px; 
     font-size: 16px;
     color: #79DA76;
-    /* Adicionando uma linha de separação entre os itens */
+    
 }
 
 .informe a {
     text-decoration: none;
     color: #79DA76;
-    margin-left: 10px; /* Pequeno espaçamento à esquerda do link */
+    margin-left: 10px; 
 }
 
 .informe span {
-    margin-right: 10px; /* Espaçamento entre o texto e o conteúdo à direita */
+    margin-right: 10px; 
 }
 
-.logout-btn {
+.btn{
     margin-top: 20px;
-    padding: 10px 20px;
+    padding: 15px;
     background-color: #fff;
     color: #000;
     border: none;
-    border-radius: 25px;
+    border-radius: 35px;
     cursor: pointer;
-    width: 100%;  /* Botão ocupa toda a largura disponível */
+    width: 150px;  
     font-size: 16px;
     text-align: center;
 }
 
 
 
-/* Adicionando um estilo para a barra de rolagem se o conteúdo for maior que a tela */
+
 .barra{
+    position: fixed; 
+    margin-top: 780px;
     background-color: #79DA76;
     display: flex;
     justify-content: space-around;
     padding-right: 10px;
     width: 405px;
-    height: 106px;
-    position: fixed; 
-   margin-top: 180px;
-    gap: 10px;     /* Distância do topo da página */
-       
-
+    height: 110px;
+    gap: 10px;   
+    bottom: 0; 
 }

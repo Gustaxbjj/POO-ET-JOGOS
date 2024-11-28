@@ -49,7 +49,12 @@ span{
     background-color: #79DA76;
     border-radius: 6px  ;
   }
+a{
+   display: flex;
+   color: white;
+   text-decoration: none; 
 
+}
 
 
 
