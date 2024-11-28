@@ -33,7 +33,12 @@
 .menu{
     margin-bottom: 5px;
     width: 100%;  
+<<<<<<< HEAD:[POO - Manhã][Avaliação 3bim][ET JOGOS][Eduardo & Talys]/Perfil.css
     padding: 50px;
+=======
+    padding: 50px;/* Para garantir que o menu ocupe toda a largura da tela */
+    font-family: sans-serif;
+>>>>>>> 0beb4c858c2405c125074638feaa7bfdb9c3064f:[POO - Manh╞][AvaliaЗ╞o 3bim][ET JOGOS][Eduardo&Talys]/Perfil.css
 }
 
 .informe {
@@ -64,7 +69,12 @@
     border: none;
     border-radius: 35px;
     cursor: pointer;
+<<<<<<< HEAD:[POO - Manhã][Avaliação 3bim][ET JOGOS][Eduardo & Talys]/Perfil.css
     width: 150px;  
+=======
+    height: 50px;
+    width: 150px;  /* Botão ocupa toda a largura disponível */
+>>>>>>> 0beb4c858c2405c125074638feaa7bfdb9c3064f:[POO - Manh╞][AvaliaЗ╞o 3bim][ET JOGOS][Eduardo&Talys]/Perfil.css
     font-size: 16px;
     text-align: center;
 }
@@ -80,7 +90,16 @@
     justify-content: space-around;
     padding-right: 10px;
     width: 405px;
+<<<<<<< HEAD:[POO - Manhã][Avaliação 3bim][ET JOGOS][Eduardo & Talys]/Perfil.css
     height: 110px;
     gap: 10px;   
     bottom: 0; 
+=======
+    height: 106px;
+    position: fixed; 
+   margin-top: 820px;
+    gap: 10px;     /* Distância do topo da página */
+       
+
+>>>>>>> 0beb4c858c2405c125074638feaa7bfdb9c3064f:[POO - Manh╞][AvaliaЗ╞o 3bim][ET JOGOS][Eduardo&Talys]/Perfil.css
 }
